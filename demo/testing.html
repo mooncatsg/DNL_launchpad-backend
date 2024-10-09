@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script  type="module"  src="js/interaction.js"></script>
+</head>
+<body>
+    <p>Welcome to the launchpad!</p>
+
+    <p>Address: <span id="address">-</span></p>
+    <p>balance: <span id="balance">0</span> BNB</p>
+    <p>chain: <span id="chain">-</span></p>
+    <button class="btn_connect_wallet">Connect Wallet</button>
+    <p></p>
+
+
+    <button class="deploy-token">Deploy Token Contract</button>
+    <p>Deployed BEP-20: <span id="token_deployed_address">-</span></p>
+
+    <input id="token_address_input">
+    <button class="btn_anyToken_connect">Connect To Any token</button>
+
+    <p>Name: <span id="t_name">-</span></p>
+    <p>Symbol: <span id="t_symbol">-</span></p>
+    <p>Decimals: <span id="t_decimals">-</span></p>
+    <p>Balance: <span id="t_balance">-</span></p>
+
+
+    
+    <p>Deploy pre-sale</p>
+    <button class="deploy_presale">Deploy pre-sale contract</button>
+    <p></p>
+
+    <input id="presale_address_input">
+    <button class="btn_presale_connect">Connect pre-sale</button>
+    <button class="btn_approve">Approve pre-sale (only dev)</button>
+    <button class="btn_presale_token_deposit">Deposit project tokens (only dev)</button>
+    <p></p>
+    <input id="presale_bnb_input">
+    <button class="btn_deposit">Contribute</button>
+    <button class="btn_claim_tokens">Claim Tokens</button>
+    <button class="btn_bnb_back">sendBNBback (only owner)</button>
+    <button class="btn_fin">finalize (only owner)</button>
+
+
+
+
+</body>
+</html>
